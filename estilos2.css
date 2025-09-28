@@ -1,0 +1,112 @@
+/* ----- MENÚ SUPERIOR ----- */
+.menu-superior {
+  background: #9ABCA7; /*color fondo esta sección*/
+  color: #333232; /*color de fuente*/
+  text-align: center; /*alineación de texto*/
+  padding: 15px; /*separación entre texto y borde*/
+  font-size: 20px; /*tamaño de fuente*/
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  position: fixed;  /*que permanezca fijo*/
+  /*posición exacta del elemento se usa por position: fixed ☝*/
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; /*es el nivel de capa, se muestran en el orden en que estan escritos en html*/
+}
+
+/* ----- MENÚ LATERAL ----- */
+.menu-lateral {
+  /*background: linear-gradient(to right, #4facfe, #00f2fe);*/
+  background: linear-gradient(to bottom, #DE3BF9, #8D0FFA);
+  line-height: 2;
+letter-spacing: 5px;
+text-align: justify;
+  position: fixed;
+  top: 100px; /* debajo del menú superior */
+  left: 0;
+  width: 180px;  /*ancho del menu lateral*/
+  height: 100%;  /*alto total de la pantalla, no es medida exacta*/
+  padding-top: 20px; /*espacio entre el texto y el borde del menu lateral en la parte superior*/
+}
+
+.menu-lateral ul {  /*diseño para las etiquetas ul que estan dentro del menu lateral*/
+  list-style: none;
+  padding: 2;
+}
+
+.menu-lateral li { /*diseño para las etiquetas li que estan dentro del menu lateral*/
+  margin: 15px 0;
+}
+
+.menu-lateral a { /*diseño para los links que estan dentro del menu lateral*/
+  text-decoration: none;  /*permite quitar diseño por default a los enlaces (subrayado)*/
+  color: #333232;
+  
+}
+
+/* ----- CONTENIDO PRINCIPAL ----- */
+.contenido {
+  margin-left: 200px; /* espacio para el menú lateral */
+  margin-top: 90px;  /* espacio para el menú superior */
+  padding: 20px;
+  
+}
+
+section {
+  scroll-margin-top: 130px; /*se ajusta a subir hasta el header*/
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; /*línea gris de división (opcional)*/
+  min-height: 300px; /* solo para que se vea sección alta y se use el scroll (opcional)*/
+}
+body {
+  background: #CEB7B3;
+  font-family: sans-serif;
+  margin: 0;  /*quita el borde inferior que tiene body por default*/
+}
+
+footer {
+  text-align: center;
+  background: #9ABCA7;
+ 
+}
+#img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 4px solid #9ABCA7;
+}
+
+/*CSS PARA FORMULARIOS INPUT*/
+input:focus {
+  color:blue;
+}   
+
+input:invalid {
+}
+
+input:valid {
+}
+  
+input:required {
+ 
+  background-color: #FFAAFF;
+}
+
+input:in-range {
+
+}
+
+input:read-only {
+}
+
+
+
+
+
+
+
+
+
+
+
