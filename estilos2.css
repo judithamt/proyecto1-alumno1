@@ -24,7 +24,7 @@ text-align: justify;
   position: fixed;
   top: 100px; /* debajo del menú superior */
   left: 0;
-  width: 180px;  /*ancho del menu lateral*/
+  width: 25%;  /*ancho del menu lateral*/
   height: 100%;  /*alto total de la pantalla, no es medida exacta*/
   padding-top: 20px; /*espacio entre el texto y el borde del menu lateral en la parte superior*/
 }
@@ -99,6 +99,7 @@ input:in-range {
 
 input:read-only {
 }
+
 
 
 
