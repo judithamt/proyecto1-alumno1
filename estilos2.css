@@ -3,7 +3,7 @@
   background: #9ABCA7; /*color fondo esta sección*/
   color: #333232; /*color de fuente*/
   text-align: center; /*alineación de texto*/
-  padding: 15%; /*separación entre texto y borde*/
+  padding: 5%; /*separación entre texto y borde*/
   font-size: 10px; /*tamaño de fuente*/
 box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   position: fixed;  /*que permanezca fijo*/
@@ -16,17 +16,16 @@ box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 
 /* ----- MENÚ LATERAL ----- */
 .menu-lateral {
-  /*background: linear-gradient(to right, #4facfe, #00f2fe);*/
-  background: linear-gradient(to bottom, #DE3BF9, #8D0FFA);
+  background: linear-gradient(to bottom, blue,black);
   line-height: 2;
 letter-spacing: 5px;
 text-align: justify;
   position: fixed;
-  top: 100px; /* debajo del menú superior */
+  top: 5%; /* debajo del menú superior */
   left: 0;
-  width: 25%;  /*ancho del menu lateral*/
+  width: 10%;  /*ancho del menu lateral*/
   height: 100%;  /*alto total de la pantalla, no es medida exacta*/
-  padding-top: 20px; /*espacio entre el texto y el borde del menu lateral en la parte superior*/
+  padding-top: 10%; /*espacio entre el texto y el borde del menu lateral en la parte superior*/
 }
 
 .menu-lateral ul {  /*diseño para las etiquetas ul que estan dentro del menu lateral*/
@@ -35,7 +34,7 @@ text-align: justify;
 }
 
 .menu-lateral li { /*diseño para las etiquetas li que estan dentro del menu lateral*/
-  margin: 15px 0;
+  margin:  0;
 }
 
 .menu-lateral a { /*diseño para los links que estan dentro del menu lateral*/
@@ -99,6 +98,7 @@ input:in-range {
 
 input:read-only {
 }
+
 
 
 
