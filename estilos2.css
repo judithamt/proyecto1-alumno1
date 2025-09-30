@@ -1,4 +1,4 @@
-* ----- MENÚ SUPERIOR ----- */
+
 .menu-superior {
   background: #9ABCA7; /*color fondo esta sección*/
   color: #333232; /*color de fuente*/
@@ -111,6 +111,7 @@ input:required {
     width: 60%;
   }
 }
+
 
 
 
