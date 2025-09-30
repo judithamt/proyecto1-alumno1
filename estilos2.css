@@ -96,12 +96,22 @@ input:required {
   background-color: #FFAAFF;
 }
 
-input:in-range {
-
+@media (max-width: 600px) {
+  body {
+    background: lightblue;
+  }
+  section {
+    width: 100%;
+  }
 }
 
-input:read-only {
+/* Tablets y PC */
+@media (min-width: 601px) {
+  section {
+    width: 60%;
+  }
 }
+
 
 
 
