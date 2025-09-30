@@ -16,7 +16,6 @@ box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 
 /* ----- MENÚ LATERAL ----- */
 .menu-lateral {
-  /*background: linear-gradient(to right, #4facfe, #00f2fe);*/
   background: linear-gradient(to bottom, #DE3BF9, #8D0FFA);
   line-height: 2;
 letter-spacing: 5px;
@@ -24,8 +23,6 @@ text-align: justify;
   position: fixed;
   top: 100px; /* debajo del menú superior */
   left: 0;
-  width: 180px;  /*ancho del menu lateral*/
-  height: 100%;  /*alto total de la pantalla, no es medida exacta*/
   padding-top: 20px; /*espacio entre el texto y el borde del menu lateral en la parte superior*/
 
   display: flex;
@@ -111,6 +108,7 @@ input:required {
     width: 60%;
   }
 }
+
 
 
 
